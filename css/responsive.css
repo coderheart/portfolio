@@ -1,0 +1,227 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+ .container{
+ 	width: 750px;
+ }
+
+.sliderArea {
+    height: 300px;
+}
+.sliderContent {
+    margin-top: 11px;
+}
+.single_service {
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+.service_icon_area {
+    display: none;
+}
+.service_details {
+    padding-left: 0;
+}
+.headerContent a{
+	font-size: 15px;
+}
+.blog_image img {
+  height: 295px;
+  width: 100%;
+}
+.blog_content_area {
+  margin-bottom: 12px;
+}
+.gallery_image {
+  margin-bottom: 10px;
+}
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+ .container{
+ 	width: 300px;	
+ }
+ /*===============
+     header Area
+  =================*/
+.headerContent {
+    text-align: center;
+}
+.headerSocial {
+    float: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.rightMenu {
+    float: none;
+    text-align: left;
+}
+.rightMenu .nav.navbar-nav > li {
+    padding-left: 20px;
+}
+
+.headerContent {
+    text-align: center;
+}
+.headerSocial {
+    float: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.rightMenu {
+    float: none;
+    text-align: left;
+}
+.rightMenu .nav.navbar-nav > li {
+    padding-left: 20px;
+}
+.sliderContent > h1 {
+    font-size: 27px;
+}
+.sliderContent{
+	margin-top: 10px;
+}
+.sliderArea {
+    height: 337px;
+}
+.personal_details > p {
+    text-align: justify;
+}
+.skill_content {
+    margin-left: 78px;
+}
+.single_skill {
+    margin-bottom: 19px;
+}
+.single_service {
+    margin-bottom: 15px;
+}
+.service_area {
+    padding-bottom: 0;
+}
+.banner_content > h1 {
+    font-size: 27px;
+}
+.banner_content > a {
+    display: block;
+    float: none;
+    margin: 5px;
+    text-align: center;
+}
+.testimonial_content_area {
+    margin-bottom: 10px;
+}
+.blog_content_area {
+    margin-bottom: 15px;
+}
+.rightMenu .nav.navbar-nav li a:hover{
+	color: #fff;
+  z-index: 1;
+
+}
+.rightMenu .nav.navbar-nav li a::after {
+  background: #46be25 none repeat scroll 0 0;
+  color: #000;
+  content: "";
+  height: 36px;
+  left: 0;
+  position: absolute;
+  right: 300px;
+  transition: 1s;
+  top: 2px;
+  z-index: -1;
+}
+.rightMenu .nav.navbar-nav li a:hover:after{
+	right: 0;
+}
+
+.rightMenu .nav.navbar-nav li a:last-child:after:hover{
+	display: none;
+}
+.rightMenu .nav.navbar-nav li::after,
+.rightMenu .nav.navbar-nav li::before{
+  display: none;
+} 
+
+.mobile_search {
+  display: block;
+  margin-left: 5px;
+  position: relative;
+}
+
+.mobile_search .form-control {
+  display: inline-block;
+  width: 73%;
+
+}
+.mobile_search .btn {
+  background: transparent none repeat scroll 0 0;
+  font-size: 19px;
+  padding: 5px 17px;
+  transition: 1s;
+}
+
+.single_blog_page .blog_banner > a {
+    font-size: 17px;
+    text-align: left;
+    width: 100%;
+     height: auto;
+     padding:5px 20px;
+}
+.blog_banner > a::after {
+    display: none;
+   
+}
+.blog_page .blog_image img {
+  height: 180px;
+  width: 100%;
+}
+.main_iso .item {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.gallery_sec{
+  margin-bottom: 10px;
+}
+/*=============
+contact_area
+===============*/
+
+.contact_left {
+    display: block;
+    margin-left: 10px;
+    margin-top: -66px;
+    position: relative;
+    width: 100%;
+}
+.contact-right {
+    display: block;
+    padding: 10px 5px 20px;
+    width: 100%;
+}
+.contact_section button.form-control {
+    margin-left: 7%;
+}
+.contact_header > h2 {
+    font-size: 21px;
+}
+.contact_header {
+    margin-bottom: 18px;
+    margin-top: 137%;
+    position: relative;
+}
+
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
